@@ -1,0 +1,40 @@
+.one{
+    color : rgb(6, 233, 142);
+    font-size: 20px;
+    text-align: left;
+    text-decoration: dashed;
+    text-shadow:gainsboro;
+    
+}
+.two{
+    color : rgb(166, 13, 13);
+    text-size-adjust: 10px;
+    text-align: left;
+    text-decoration: dashed;
+   
+}
+.first{
+    color :blueviolet;
+    text-size-adjust: 10px;
+    text-align: justify;
+    text-decoration: dashed;
+}
+.par{
+    color: black;
+      font-size: 20px;
+}
+h1{
+    color :black;
+    text-decoration:underline;
+    transform:uppercase;
+}
+.second{
+    color : blue;
+    text-align: justify;
+    border :  5px double burlywood;
+
+}
+p1{
+margin-right : 50px;
+margin-left : 50px;
+}
