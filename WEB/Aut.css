@@ -1,0 +1,18 @@
+.auth {
+  background:#eef4ff;
+  display:flex; justify-content:center; align-items:center;
+  height:100vh;
+}
+.auth-box {
+  background:white; padding:35px; width:350px;
+  border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,.18);
+  text-align:center;
+}
+.auth-box input {
+  width:100%; padding:11px; margin:8px 0;
+  border:1px solid #aaa; border-radius:6px;
+}
+.auth-btn {
+  background:#3c7bff; border:none; width:100%; padding:12px;
+  color:white; border-radius:7px; cursor:pointer; margin-top:10px;
+}

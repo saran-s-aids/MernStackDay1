@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">e-shop.</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#products">Products</a>
+    <a href="login.html">Login</a>
+  </nav>
+  <div class="cart-btn" onclick="openCart()">
+    🛒 <span id="cartCount">0</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Discover the Latest Electronics</h1>
+    <p>Your one-stop marketplace for gadgets with affordable prices.</p>
+    <button class="hero-btn" onclick="scrollToProducts()">Shop Now</button>
+  </div>
+  <img src="https://img.freepik.com/free-photo/top-view-electronic-devices-arrangement_23-2149437101.jpg
+
+
+">
+</section>
+
+<h2 class="section-title">🔥 Popular Products</h2>
+
+<div class="products-container" id="products"></div>
+
+<!-- POPUP -->
+<div id="detailsPopup">
+  <div class="details-card" id="detailsBox">
+    <img id="detailsImg">
+    <h3 id="detailsTitle"></h3>
+    <p class="price" id="detailsPrice"></p>
+    <button class="add-btn" onclick="addFromPopup()">Add to Cart</button>
+    <button class="close-btn" onclick="closePopup()">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
